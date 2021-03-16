@@ -1,0 +1,75 @@
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.image__box {
+  width: 19rem;
+  height: auto;
+  margin: 1rem;
+}
+
+.box-art {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.grow {
+  transition: all .3s ease;
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
+
+
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sansation'), url('Sansation_Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Sansation Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sansation Light'), url('Sansation_Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Sansation Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sansation Bold'), url('Sansation_Bold.woff') format('woff');
+  }
+
+.title-box{
+  margin: 1rem 0 2rem 0;
+  display: inline-block;
+  padding: 1rem;
+  background-color: black;
+  font-family: sansation;
+  font-weight: 100;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, rgb(18, 238, 18), blue);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+
+
+
+
