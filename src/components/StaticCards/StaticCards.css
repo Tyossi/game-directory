@@ -139,5 +139,13 @@
   width: 100%;
 }
 
-  
 
+  .card:hover {
+    transform: translateY(-10px);
+    transition: 0.2s ease-out;
+  }
+  
+  .card:hover ~ .card:not(:last-child) {
+    left: 46.4px;
+    transition: 0.4s ease-out;
+  }
