@@ -17,7 +17,6 @@ const Games = () => {
       );
       const parsedResponse = await response.json();
       const data = parsedResponse.results;
-      console.log(data);
       setGames(data);
     } catch (error) {
       console.log(error.message);
