@@ -25,9 +25,7 @@ const Games = () => {
 
   useEffect(
     (e) => {
-      if (e.key === "Enter") {
-        fetchData();
-      }
+      fetchData();
     },
     [searchField]
   );
